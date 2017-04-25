@@ -23,7 +23,7 @@ p {
   padding-top:24px;
   font-family: "Times New Roman", Times, serif;
   color: black;
-  overflow: auto;
+  overflow: hidden; /* auto */
 }
 
 .Topic {
@@ -107,7 +107,7 @@ p {
       /********** Medium devices only **********/
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .sushi, .ps {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-1 {
@@ -146,61 +146,17 @@ p {
   .col-md-12 {
     width: 100%;
   }
-  .sushi {
+ /* .sushi {
     float: left;
     width: 100%;
-  }
+  } */
   .st {
-    margin-right: 2.5%;
+    margin-right: 2.5%; /* auto; */
   }
   .sp {
     float: right;
     width: 95%;
-    margin-right: 2.5%;
-  }
-}
-
-
-      /********** Small devices only **********/
-
-@media  (max-width: 767px) {
-  .col-sl-1, .col-sl-2, .col-sl-3, .col-sl-4, .col-sl-5, .col-sl-6, .col-sl-7, .col-sl-8, .col-sl-9, .col-sl-10, .col-sl-11, .col-sl-12 {
-    float: left;
-  }
-  .col-sl-1 {
-    width: 8.33%;
-  }
-  .col-sl-2 {
-    width: 16.66%;
-  }
-  .col-sl-3 {
-    width: 25%;
-  }
-  .col-sl-4 {
-    width: 33.33%;
-  }
-  .col-sl-5 {
-    width: 41.66%;
-  }
-  .col-sl-6 {
-    width: 50%;
-  }
-  .col-sl-7 {
-    width: 58.33%;
-  }
-  .col-sl-8 {
-    width: 66.66%;
-  }
-  .col-sl-9 {
-    width: 74.99%;
-  }
-  .col-sl-10 {
-    width: 83.33%;
-  }
-  .col-sl-11 {
-    width: 91.66%;
-  }
-  .col-sl-12 {
-    width: 100%;
+    margin-right: 2.5%; /*auto;
+    margin-left: auto; */
   }
 }
